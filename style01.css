@@ -1,0 +1,16 @@
+h1{
+  font-size: 50px; text-align: center;
+  border-bottom: 7px groove deepskyblue;
+  padding-bottom: 30px;
+}
+#grid{
+  border: 1px dotted gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.parts{
+  border-right: 1px dotted gray;
+}
+.parts h3{
+  text-align: center;
+}
