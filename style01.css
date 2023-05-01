@@ -1,14 +1,16 @@
+h1 a{
+  text-decoration: none;
+  color black;  
+}
 h1{
   font-size: 60px; text-align: center;
-  text-decoration: none;
-  color black;
   border-bottom: 7px groove deepskyblue;
   padding-bottom: 30px;
   margin-bottom: 0px
 }
 #grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .parts{
   border-right: 1px dotted gray;
